@@ -1,0 +1,66 @@
+main class : DialogPageAcceuil.java
+
+C:.
+│
+│
+└───src
+    ├───bd
+    │       contrats.csv
+    │       fournisseurs.csv
+    │       produits.csv
+    │
+    ├───control
+    │       ControlAfficherDetailContrat.java
+    │       ControlAfficherDetailFournisseur.java
+    │       ControlAfficherDetailProduit.java
+    │       ControlEtablireUnNouveauContrat.java
+    │       ControlListerLesContrats.java
+    │       ControlListerLesFournisseurs.java
+    │       ControlListerLesProduits.java
+    │       ControlRechercherUnContrat.java
+    │       ControlRechercherUnFournisseur.java
+    │       ControlRechercherUnProduit.java
+    │       ControlResilierUnContrat.java
+    │
+    ├───coq
+    │       speContrat.v
+    │
+    ├───dialog
+    │       DialogNouveauContrat.java
+    │       DialogPageAcceuil.java (main class)
+    │
+    ├───InterfaceNoyau
+    │       InterfaceNouveauContrat.java
+    │       InterfaceNoyauPageAcceuil.java
+    │
+    ├───model
+    │       CallOcaml.java
+    │       Contrat.java
+    │       Etat.java
+    │       Fournisseur.java
+    │       Gestionnaire.java
+    │       GestionnaireDesContrats.java
+    │       GestionnaireDesFournisseurs.java
+    │       GestionnaireDesProduits.java
+    │       Matiere.java
+    │       NiveauQualite.java
+    │       Produit.java
+    │       ProduitChemique.java
+    │       ProduitEmballage.java
+    │       TypeFrequance.java
+    │
+    ├───ocaml
+    │       main
+    │       main.ml
+    │       test
+    │       test.ml
+    │       types.ml
+    │       utils.ml
+    │
+    └───presentation
+            PresentationJDialogDetailsPage.form
+            PresentationJDialogDetailsPage.java
+            PresentationJDialogNouveauContrat.form
+            PresentationJDialogNouveauContrat.java
+            PresentationJFramePageAcceuil.form
+            PresentationJFramePageAcceuil.java
